@@ -1,0 +1,202 @@
+/*search start*/
+.search-wrap{
+    overflow: hidden;
+}
+.logo{
+    width: 240px;
+    height: 130px;
+    float:left;
+    margin-left: -20px;
+}
+.search-box {
+    float: left;
+    margin: 38px 0 0 120px;
+}
+.search {
+    width: 625px;
+    height: 36px;
+    border: 2px solid #ff0036;
+}
+.search-text {
+    width: 491px;
+    height: 36px;
+    border: none;
+    outline: none ;
+    /*去掉小蓝边*/
+    float: left;
+}
+.search-button{
+    width: 134px;
+    height: 36px;
+    border: none;
+    background: #ff0036;
+    float: left;
+    /*为了去空，两个都浮动*/
+    font-size: 18px;
+    color: #ffffff;
+}
+.select{
+    height: 24px;
+    font-size: 14px;
+    padding: 4px 0 0;
+    margin-left: -13px;
+}
+.select li{
+    display: inline-block;
+    list-style: none ;
+    /*border-left: 1px solid #cccccc;*/
+    padding: 0 12px;
+    font-size: 14px;
+    position: relative;
+}
+.select li a{
+    color: #999999;
+}
+.select li span {
+    width: 1px;
+    height: 14px;
+    background: #999999;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+.select .select-hot a{
+    color: #ff0036;
+}
+.nav-icon{
+    color: #ff0036;
+    font-size: 14px;
+}
+/*search end*/
+
+/*menu start*/
+.menu-box{
+    height: 35px;
+    border-bottom: 2px solid #ff0036;
+}
+.menu-list{
+    margin-left: 200px;
+}
+.menu-list li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+.menu-list img{
+    width: 100px;
+    /*vertical-align: middle;*/
+    margin-top: 3px;
+}
+.menu-list a{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding: 0 8px ;
+}
+.menu-list a:hover{
+    color: #ff0036;
+}
+/*menu end*/
+
+/*轮播图 start*/
+.slider{
+    height: 500px;
+    width: auto;
+    position: relative;
+}
+.slider-panner{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    transition: all 1s ease;
+    opacity: 0;
+}
+.slider-panner div{
+    width: 1230px;
+    margin:0 auto;
+}
+.spn_1{
+    background: rgb(82, 173, 242);
+}
+.spn_1 img{
+    height: 500px;
+    width: 1230px;
+}
+.spn_2 {
+    background: rgb(229, 229, 229);
+}
+.spn_3 {
+    background: rgb(229, 229, 229);
+}
+.spn_4 {
+    background: rgb(116, 242, 148);
+}
+.spn_4 img{
+    height: 500px;
+    width: 1230px;
+}
+.spn_5 {
+    background: rgb(242, 123, 87);
+}
+.spn_5 img{
+    height: 500px;
+    width: 1230px;
+}
+.spn_6 {
+    background: rgb(223, 242, 239);
+}
+.spn_6 img{
+    height: 500px;
+    width: 1230px;
+}
+.active{
+    z-index: 2;
+    opacity: 1;
+}
+/*轮播图 end*/
+
+/*购物菜单 start*/
+.shopping-list{
+    position: relative;
+}
+.category-type{
+    width: 200px;
+    height: 36px;
+    background: #ff0036 ;
+    position: absolute;
+    margin-left: 60px;
+}
+.text{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    padding-top: 7px;
+    display: inline-block;
+}
+.shopping-icon{
+    font-size: 16px;
+    color:#ffffff;
+    float: left;
+    margin-left: 14px;
+    padding-top: 10px;
+    display: inline-block;
+    /*position: absolute;*/
+}
+.shopping-content{
+    width: 200px;
+}
+.category-content{
+    width: 200px;
+    height: 500px;
+    background: rgba(0,0,0,0.55);
+}
+.category-item{
+    height: 31.2px;
+}
+.category-item a{
+    color: #ffffff;
+    font-size: 14px;
+}
+/*购物菜单 end*/
